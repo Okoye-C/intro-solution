@@ -54,7 +54,10 @@ header{
 }
 .none1{
     display: grid;
-    transition: 1;
+}
+
+.none2{
+    display: none;
 }
 
 .none{
@@ -81,7 +84,6 @@ header{
     border-radius: 10px;
     padding: 1rem;
     z-index: 1;
-    transition: 3s ease-in;
     box-shadow: 0 8px 8px 0 rgba(20, 20, 20, 0.15), 0 6px 18px 0 rgba(20, 20, 20, 0.15);
     a{
         font-size: .8rem;
@@ -101,6 +103,7 @@ header{
     font-weight: inherit;
     font-family: inherit;
     padding-bottom: 1rem;
+    
 }
 .careers{
     padding-right: 2rem;
@@ -118,6 +121,7 @@ header{
 .l-and-r{
     float: right;
     display: inline;
+    padding-top: .7rem;
 
     a{
         color: hsl(0, 0%, 41%);
@@ -249,7 +253,6 @@ header{
         background-color: white;
         top: 0;
         right: 0;
-        transition: 0.5s;
         width: 0%;
 
         
@@ -281,7 +284,7 @@ header{
             left: 0;
 
             img{
-                width: 8%;
+                width: 5%;
             }
         }
 
@@ -336,6 +339,8 @@ header{
         .l-and-r{
             float: none;
             text-align: center;
+            position: relative;
+            top: 6rem;
 
             a{
                 display: list-item;
@@ -371,7 +376,7 @@ header{
         }
 
         p.learn-more{
-            margin-left: 35%;
+            margin-left: 38%;
         }
 
         .logos{ 

@@ -5,8 +5,8 @@ const arrowDown = document.getElementsByClassName("icon-arrow-down")[0];
 
 function dropdown(){
     featuresContent.classList.toggle("none"); //adds and removes none from the class list
-    arrowDown.classList.toggle("none");
-    arrowUp.classList.toggle("none");
+    arrowDown.classList.toggle("none2");
+    arrowUp.classList.toggle("none2");
 
 }
 
@@ -24,15 +24,15 @@ const companyArrowDown = document.getElementsByClassName("icon-arrow-down")[1];
 
 function companyDropDown(){
     companyContent.classList.toggle("none");
-    companyArrowDown.classList.toggle("none");
-    companyArrowUp.classList.toggle("none");
+    companyArrowDown.classList.toggle("none2");
+    companyArrowUp.classList.toggle("none2");
 }
 companyButton.addEventListener("click", function(){
     companyDropDown();
 });
 
 //Menu button functionality
-const menuIcon = document.getElementById("menu-icon-button");
+const menuIcon = document.getElementById("icon-menu-button");
 const sideNav = document.getElementById("nav");
 const iconClose = document.getElementById("icon-close-menu-button");
 
