@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index styles/index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> 
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+    <header class="header">
+        <h1>snap</h1>
+
+        <button type="button" id="icon-menu-button" onclick="menuButton()"><img class="icon-menu" src="index images/icon-menu.svg" alt="icon-menu"></button>
+        <div class="all" id="nav">
+            <button type="button" id="icon-close-menu-button" onclick="closeMenu()"><img class ="index/icon-close-menu" src="index images/icon-close-menu.svg" alt="icon-close-menu"></button>
+            <div class="navbar">
+                <div class="dropdown features">
+                    <button type="button" onclick="dropdown" id="features-button">Features <img class="icon-arrow-down none"
+                    src="index images/icon-arrow-down.svg" alt="icon-arrow-down"><img class ="icon-arrow-up" src="index images/icon-arrow-up.svg"
+                    alt="icon-arrow-up"></button>
+                    <div id="features-content" class="none1 none" >
+        
+                        <a href="#"><img src=" index images/icon-todo.svg" alt="todo icon"> Todo List</a>
+                        <a href="#"><img src=" index images/icon-calendar.svg" alt="Calender icon"> Calender</a>
+                        <a href="#"><img src=" index images/icon-reminders.svg" alt="Reminder icon"> Reminders</a>
+                        <a href="#"><img src=" index images/icon-planning.svg" alt="Planning icon"> Planning</a>
+            
+                    </div>
+                </div>
+                <div class="dropdown company">
+                    <button type="button" id="company-button">Company<img class ="icon-arrow-down none" src="index images/icon-arrow-down.svg"
+                            alt="icon-arrow-down"><img class ="icon-arrow-up" src="index images/icon-arrow-up.svg" alt="icon-arrow-up"></button>
+                    <div id="company-content" class="none1 none">
+            
+                        <a href="#">History</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Blog</a>
+            
+                    </div>
+                </div>
+                    <div class="c-and-a">
+                        <a class="careers" href="#">Careers</a>
+                        <a class="about" href="#">About</a>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="l-and-r">
+                    
+                        <a class="login" href="#">Login</a>
+                        <a class="register" href="#">Register</a>
+                    
+                    </div>
+            </div>
+
+        </div>
+        
+        
+    </header>
+
+    <div class="main">
+        <div class="main-text">
+            <img class ="image-hero-mobile" src="index images/image-hero-mobile.png" alt="image-hero-mobile">
+
+            <h1>Make <br> remote work</h1>
+            
+            <p>Get your team in sync, no matter your location. <br> Streamline processes,
+                create team rituals, and <br> watch productivity soar.</p>
+            
+            <p class="learn-more">Learn more</p>
+
+            <div class="logos">
+                <img src="index images/client-databiz.svg" alt="client-databiz svg">
+                <img class ="client-audiophile" src="index images/client-audiophile.svg" alt="client-audiophile svg">
+                <img src=" index images/client-meet.svg" alt="client-meet svg">
+                <img src=" index images/client-maker.svg" alt="client-maker svg">
+            </div>
+        </div>
+
+        <img class ="image-hero-desktop" src="index images/image-hero-desktop.png" alt="hero picture">
+        
+        
+    </div>
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/Okoye-C/intro-solution" target="blank">AKA-OKOYE CHIBUZO JOSEPHANA</a>.
+        </div>
+    </footer>
+    
+</body>
+<script src="index.js"></script>
+</html>
